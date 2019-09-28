@@ -1,14 +1,16 @@
+const error = 2;
+
 module.exports = {
   rules: {
-    'body-leading-blank': [2, 'always'],
-    'footer-leading-blank': [2, 'always'],
-    'header-max-length': [2, 'always', 72],
-    'scope-empty': [2, 'never'],
-    'scope-enum': [2, 'always', ['root', 'core', 'docs']],
-    'subject-case': [2, 'always', 'lower-case'],
-    'subject-empty': [2, 'never'],
-    'subject-full-stop': [2, 'never', '.'],
-    'type-empty': [2, 'never'],
-    'type-enum': [2, 'always', ['build', 'chore', 'docs', 'feat', 'fix', 'test']]
+    "body-leading-blank": [error, "always"],
+    "footer-leading-blank": [error, "always"],
+    "header-max-length": [error, "always", 72],
+    "scope-empty": [error, "never"],
+    "scope-enum": [error, "always", ["build", "core"]],
+    "subject-case": [error, "always", "lower-case"],
+    "subject-empty": [error, "never"],
+    "subject-full-stop": [error, "never", "."],
+    "type-empty": [error, "never"],
+    "type-enum": [error, "always", ["refactor", "docs", "feat", "fix", "test"]]
   }
 };
