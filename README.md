@@ -1,5 +1,5 @@
 # [Ext Design](https://ext.design)
 
-A true extensible web UI kit.
+A true extensible UI kit for the web.
 
 - [Contributing](.github/CONTRIBUTING.md)
