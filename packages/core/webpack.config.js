@@ -21,9 +21,9 @@ module.exports = (env, argv) => {
     test: /\.tsx?$/,
     use: "ts-loader",
     exclude: /node_modules/,
-  }
+  };
 
-  const rules = [ruleTs]
+  const rules = [ruleTs];
 
   return ({
     watch: isDev,

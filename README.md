@@ -2,4 +2,4 @@
 
 A true extensible UI kit for the web.
 
-- [Contributing](.github/CONTRIBUTING.md)
+- [Contributing](docs/CONTRIBUTING.md)
