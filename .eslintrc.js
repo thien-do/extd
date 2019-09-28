@@ -28,6 +28,7 @@ module.exports = {
     "@typescript-eslint/no-require-imports": ["error"],
     "@typescript-eslint/quotes": ["error"],
     "@typescript-eslint/semi": ["error"],
+    "eol-last": ["error", "always"],
     "indent": "off",
     "linebreak-style": ["error", "unix"],
     "quotes": "off",
