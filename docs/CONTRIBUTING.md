@@ -17,4 +17,4 @@
   - Changed code is checked by ESLint ([config](https://github.com/dvkndn/extd/blob/master/.eslintrc.js) – for all packages).
   - Commit message is checked by Commitlint ([config](https://github.com/dvkndn/extd/blob/master/commitlint.config.js)).
 
-Most design principles of this codebase come from (and be added to) the [festival](http://github.com/axieinfinity/festival/) project.
+Most design principles of this codebase come from (and will be added to) the [festival](http://github.com/axieinfinity/festival/) project.
