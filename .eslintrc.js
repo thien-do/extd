@@ -25,13 +25,11 @@ module.exports = {
   "rules": {
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-floating-promises": ["error"],
-    "@typescript-eslint/no-magic-numbers": ["error"],
     "@typescript-eslint/no-require-imports": ["error"],
     "@typescript-eslint/quotes": ["error"],
     "@typescript-eslint/semi": ["error"],
     "indent": "off",
     "linebreak-style": ["error", "unix"],
-    "no-magic-numbers": "off",
     "quotes": "off",
     "semi": "off"
   },

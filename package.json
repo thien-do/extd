@@ -25,7 +25,8 @@
   "homepage": "https://ext.design",
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
     }
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
     "eslint": "6.4.0",
     "eslint-plugin-react": "7.14.3",
     "husky": "3.0.7",
+    "lint-staged": "9.4.0",
     "typescript": "3.6.3"
   }
 }
