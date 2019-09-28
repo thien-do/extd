@@ -11,5 +11,10 @@ yarn-error.log*
 # TypeScript cache
 # *.tsbuildinfo
 
+# Parcel
+.cache
+core/dist
+docs/dist
+
 # OS
 .DS_*

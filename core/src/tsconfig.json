@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "../dist/",
+    "emitDeclarationOnly": true,
+    "jsx": "react"
+  }
+}

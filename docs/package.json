@@ -5,7 +5,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ext", "design", "system", "ui", "kit", " react"],
+  "keywords": [
+    "ext",
+    "design",
+    "system",
+    "ui",
+    "kit",
+    "react"
+  ],
   "author": "dvkndn",
   "license": "MIT",
   "repository": {
@@ -17,6 +24,14 @@
   },
   "homepage": "https://github.com/dvkndn/extd#readme",
   "dependencies": {
-    "@extd/core": "0.0.1"
+    "@extd/core": "0.0.1",
+    "react": "16.10.0",
+    "react-dom": "16.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.3",
+    "@types/react-dom": "16.9.1",
+    "parcel-bundler": "1.12.3",
+    "typescript": "3.6.3"
   }
 }
