@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Documentation for a true extensible web UI kit",
   "scripts": {
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

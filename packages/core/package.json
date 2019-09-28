@@ -4,6 +4,7 @@
   "description": "A true extensible web UI kit",
   "main": "dist/index.js",
   "scripts": {
+    "start": "parcel src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "typings": "dist/index.d.ts",
