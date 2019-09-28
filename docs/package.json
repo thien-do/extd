@@ -1,0 +1,22 @@
+{
+  "name": "@extd/docs",
+  "version": "0.0.1",
+  "description": "Documentation for a true extensible web UI kit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ext", "design", "system", "ui", "kit", " react"],
+  "author": "dvkndn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvkndn/extd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dvkndn/extd/issues"
+  },
+  "homepage": "https://github.com/dvkndn/extd#readme",
+  "dependencies": {
+    "@extd/core": "0.0.1"
+  }
+}

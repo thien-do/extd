@@ -1,0 +1,17 @@
+{
+  "name": "@extd/main",
+  "private": true,
+  "workspaces": ["core", "docs"],
+  "description": "A true extensible web UI kit",
+  "keywords": ["ext", "design", "system", "ui", "kit", " react"],
+  "author": "dvkndn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvkndn/extd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dvkndn/extd/issues"
+  },
+  "homepage": "https://ext.design"
+}
