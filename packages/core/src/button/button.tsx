@@ -2,8 +2,8 @@ import React from "react";
 
 const foo = (a: number, b: number) => a + b;
 
-console.log(foo(4, 5));
+console.log(foo(4, 7));
 
 export const Button = () => (
-  <div>Button 2</div>
+  <div>Button 3</div>
 );
