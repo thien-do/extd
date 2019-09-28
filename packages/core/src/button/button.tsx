@@ -1,9 +1,5 @@
 import React from "react";
 
-const foo = (a: number, b: number) => a + b;
-
-console.log(foo(4, 7));
-
-export const Button = () => (
+export const Button  = (): JSX.Element => (
   <div>Button 3</div>
 );
