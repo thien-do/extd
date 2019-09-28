@@ -1,9 +1,19 @@
 {
   "name": "@extd/main",
   "private": true,
-  "workspaces": ["core", "docs"],
+  "workspaces": [
+    "core",
+    "docs"
+  ],
   "description": "A true extensible web UI kit",
-  "keywords": ["ext", "design", "system", "ui", "kit", " react"],
+  "keywords": [
+    "ext",
+    "design",
+    "system",
+    "ui",
+    "kit",
+    " react"
+  ],
   "author": "dvkndn",
   "license": "MIT",
   "repository": {
@@ -13,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/dvkndn/extd/issues"
   },
-  "homepage": "https://ext.design"
+  "homepage": "https://ext.design",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "husky": "^3.0.7"
+  }
 }
