@@ -12,7 +12,7 @@
     "system",
     "ui",
     "kit",
-    " react"
+    "react"
   ],
   "author": "dvkndn",
   "license": "MIT",
@@ -30,7 +30,10 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "husky": "^3.0.7"
+    "@commitlint/cli": "8.2.0",
+    "@typescript-eslint/eslint-plugin": "2.3.1",
+    "@typescript-eslint/parser": "2.3.1",
+    "eslint": "6.4.0",
+    "husky": "3.0.7"
   }
 }
