@@ -13,8 +13,7 @@ yarn-error.log*
 
 # Parcel
 .cache
-core/dist
-docs/dist
+dist
 
 # OS
 .DS_*

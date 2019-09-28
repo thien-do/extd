@@ -2,8 +2,7 @@
   "name": "@extd/main",
   "private": true,
   "workspaces": [
-    "core",
-    "docs"
+    "packages/*"
   ],
   "description": "A true extensible web UI kit",
   "keywords": [
