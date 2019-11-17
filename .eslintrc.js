@@ -1,42 +1,15 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true
+  env: { commonjs: true, es6: true, node: true },
+  extends: "eslint:recommended",
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly"
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking"
-  ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./packages/*/tsconfig.json",
-    "ecmaFeatures": { "jsx": true },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
-  },
-  "plugins": ["react", "@typescript-eslint"],
-  "rules": {
-    "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/no-floating-promises": ["error"],
-    "@typescript-eslint/no-require-imports": ["error"],
-    "@typescript-eslint/quotes": ["error"],
-    "@typescript-eslint/semi": ["error"],
-    "eol-last": ["error", "always"],
-    "indent": "off",
+  parserOptions: { ecmaVersion: 2018 },
+  rules: {
+    indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
-    "quotes": "off",
-    "semi": "off"
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+    quotes: ["error", "double"],
+    semi: ["error", "always"]
   }
 };
