@@ -1,30 +1,42 @@
 const path = require("path");
 
+// Rules
+
+const rules = [];
+
+rules.push({
+  test: /\.css$/,
+  loader: "css-loader",
+});
+
+rules.push({
+  test: /\.tsx?$/,
+  use: "ts-loader",
+  exclude: /node_modules/,
+});
+
+// Peer dependencies
+
+const externals = {};
+
+externals.react = {
+  commonjs: "react", commonjs2: "react",
+  amd: "react", root: "React",
+};
+
+// Output
+
+const output = {
+  filename: "index.js",
+  path: path.resolve(__dirname, "dist"),
+  library: "extCore",
+  libraryTarget: "umd",
+};
+
+// Main
+
 module.exports = (env, argv) => {
   const isDev = argv.mode === "development";
-
-  const output = {
-    filename: "index.js",
-    path: path.resolve(__dirname, "dist"),
-    library: "extCore",
-    libraryTarget: "umd",
-  };
-
-  const externals = {
-    react: {
-      commonjs: "react", commonjs2: "react",
-      amd: "react", root: "React",
-    },
-  };
-
-  const ruleTs = {
-    test: /\.tsx?$/,
-    use: "ts-loader",
-    exclude: /node_modules/,
-  };
-
-  const rules = [ruleTs];
-
   return ({
     watch: isDev,
     mode: isDev ? "development" : "production",
