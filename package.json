@@ -31,8 +31,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
-    "eslint": "6.4.0",
-    "husky": "3.0.7",
-    "lint-staged": "9.4.0"
+    "eslint": "6.6.0",
+    "husky": "3.0.9",
+    "lint-staged": "9.4.3"
   }
 }
