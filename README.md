@@ -1,5 +1,1 @@
-# [Ext Design](https://ext.design)
-
-A true extensible UI kit for the web.
-
-- [Contributing](docs/CONTRIBUTING.md)
+"extd" is actually my first idea for a UI kit. It's https://github.com/moaijs/moai now!
